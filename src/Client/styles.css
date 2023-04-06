@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(aliceblue,rgb(0, 85, 128) );
 }
 .router{
     display: flex;
@@ -17,24 +18,17 @@ body{
     width: 275px;
     background-color: none;
 }
-#windy { height: 180px; }
-#topHeader{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: aquamarine;
-}
 .sidebarList{
     padding: 10px;
     margin: 0;
     height: 100vw;
     padding: 0;
     width: 100%;
-    background-color: rgb(0, 85, 128);
+    background-color: none;
 }
 .sidebarList .sideBOptions:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: rgb(182, 221, 255);
 }
 .Sidebar .sideBOptions{
     border-radius: 5px;
@@ -43,10 +37,10 @@ body{
     list-style-type: none;
     margin: 0%;
     display: flex;
-    color: white;
+    color: rgb(0, 85, 128)e;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 85, 128);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .infoServe{
@@ -58,17 +52,65 @@ body{
 #titleBlock{
     display: flex;
     color: white;
-    background-color: green;
+    background-color: rgb(0, 85, 128);
     align-items: center;
     justify-content: center;
 }
 
 #submitBox{
+    background-color: none;
+    border-radius: 10px;
+    border: 5px blueviolet;
     margin: 20px;
     padding: 20px;
-    width: max-content;
     }
 #statList{
     list-style-type: none;
-    
+    font-size: larger;
+    font-weight: bold;
+}
+.infoServe{
+    width: 100vw;
+    height: 100vw;
+    background-color: none;
+    border: 5px;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+.journal{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: none;
+    border: 2px blueviolet;
+    border-radius: 10px;
+}
+.journalEntries{
+    color: rgb(0, 85, 128);
+    border: 1px solid rgb(0, 85, 128);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(240, 248, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.journalEntries:hover{
+    background-color: rgb(182, 221, 255);
+}
+#surfLog{
+    color: rgb(0, 85, 128);
+}
+#surfGuyBox{
+    padding: 20px;
+    margin: 20px;
+    border: 2px rgb(0, 85, 128);
+    background-color: rgb(0, 85, 128);
+    border-radius: 10px;
+}
+#buttons{
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
 }

@@ -13,11 +13,6 @@ export const SideBarData =  [
         link: '/'
     },
     {
-        title:'Current Conditions',
-        icon:<TsunamiIcon />,
-        link: '/Page1'
-    },
-    {
         title:'Surf Log',
         icon:<BookIcon />,
         link: '/Page2'
@@ -27,7 +22,11 @@ export const SideBarData =  [
         icon:<SurfingIcon />,
         link: '/Page3'
     },
-
+    {
+        title:'Current Conditions',
+        icon:<TsunamiIcon />,
+        link: '/Page1'
+    },
     {
         title:'Logout',
         icon:<LogoutIcon />,

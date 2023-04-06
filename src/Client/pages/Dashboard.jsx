@@ -40,6 +40,7 @@ function Dashboard() {
             <h3>Crowd Level(1-10): </h3> <input type = 'number' min = "1" max = "10" required value = {crowd} onChange={(e) => setCrowd(e.target.value)}/>
             <button type = 'submit'> Submit Log</button>
         </form>
+        <div id='surfGuyBox'><img src='https://www.surfertoday.com/images/stories/surferdude.jpg'></img></div>
     </div>
   )
 }

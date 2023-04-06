@@ -11,7 +11,7 @@ locationController.getLocationInformation = (req, res, next) => {
     vibes,
     crowd
    } = req.body;
-    const params = ['waveHeight', 'airTemperature', 'swellDirection', 'swellHeight', 'wavePeriod', 'waterTemperature'] ;
+    const params = ['waveHeight', 'airTemperature', 'swellDirection', 'swellHeight', 'swellPeriod', 'waterTemperature'] ;
     const src = 'sg'
 
     fetch(`https://api.stormglass.io/v2/weather/point?lat=${lat}&lng=${long}&params=${params}&source=${src}`, {
