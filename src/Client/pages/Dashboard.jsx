@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import { set } from '../../Server/server';
 
 function Dashboard() {
     
@@ -9,6 +8,8 @@ function Dashboard() {
     const [numWaves, setNumWaves] = useState(null);
     const [vibes, setVibes] = useState(null);
     const [crowd, setCrowd] = useState(null);
+    const [waveData, setData] = useState({});
+
 
     const handleSubmit = (e) =>{
     e.preventDefault();
@@ -23,8 +24,8 @@ function Dashboard() {
     })
     .then(resp => resp.json())
     .then(data => {
-      console.log(data);
-      //set
+      setData(data);
+      console.log(waveData)
     });
   }
 

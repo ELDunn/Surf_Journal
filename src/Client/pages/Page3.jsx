@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import React from 'react'
 
 function Page1(props) {
@@ -5,6 +6,10 @@ function Page1(props) {
   //will need a component did mount and load the database
   //access the database storing our information 
   //access logs
+
+  useEffect(()=>{
+    
+  })
   return (
     <div className='infoServe'>
         <h1>Statistics</h1>

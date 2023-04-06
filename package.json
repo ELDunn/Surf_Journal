@@ -2,7 +2,7 @@
   "name": "solo-project",
   "version": "1.0.0",
   "description": "",
-  "main": "src/Server/server.js",
+  "main": "Server/server.js",
   "scripts": {
     "dev": "concurrently \"cross-env NODE_ENV=development webpack-dev-server --open --hot --progress --color \" \"nodemon ./Server/server.js\"",
     "start": "webpack-dev-server --mode development --open --hot",
@@ -14,6 +14,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "leaflet": "^1.9.3",
+    "mongoose": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",

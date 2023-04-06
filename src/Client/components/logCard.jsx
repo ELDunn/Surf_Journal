@@ -23,8 +23,6 @@ const CharacterCard = ({
       <li className="charDetail">Swell Direction: {swellDirection} </li>
       <li className="charDetail">Swell Height: {swellHeight} </li>
       <li className="charDetail">Swell Period: {swellPeriod} </li>
-      <p className="charAddlDetail">Films:</p>
-      <ul className="charFilmsList">{filmData}</ul>
     </ul>
   </article>
   )

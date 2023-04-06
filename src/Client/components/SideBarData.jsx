@@ -8,7 +8,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 export const SideBarData =  [
     {
-        title:'Home',
+        title:'New Entry',
         icon:<BeachAccessIcon/>,
         link: '/'
     },
@@ -23,7 +23,7 @@ export const SideBarData =  [
         link: '/Page2'
     },
     {
-        title:'Stats',
+        title:'Surf Statistics',
         icon:<SurfingIcon />,
         link: '/Page3'
     },
