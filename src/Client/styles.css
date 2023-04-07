@@ -20,6 +20,7 @@ body{
     background-color: none;
 }
 .sidebarList{
+    font-size: larger;
     color:  rgb(0, 85, 128);
     padding: 10px;
     margin: 0;
@@ -112,7 +113,7 @@ body{
 }
 #surfGuyBox{
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
     border: 2px rgb(0, 85, 128);
     background-color: rgb(0, 85, 128);
     border-radius: 10px;
@@ -137,4 +138,16 @@ body{
 #curCon{
     padding: 20px;
     margin: 20px;
+}
+#stats{
+    color: rgb(0, 85, 128);
+}
+#zuck{
+    padding: 20px;
+    height: fit-content;
+    margin: 50px;
+    border: 2px rgb(0, 85, 128);
+    background-color: rgb(0, 85, 128);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Page1 from "./pages/Page1.jsx";
 import Page2 from "./pages/Page2.jsx";
 import Page3 from "./pages/Page3.jsx";
+import Page4 from "./pages/Page4.jsx"
 import Dashboard from "./pages/Dashboard.jsx";
 import './styles.css';
 
@@ -25,6 +26,7 @@ function App(props) {
                     <Route exact path = "/Page1" element={<Page1/>}/>
                     <Route exact path = "/Page2" element = {<Page2/>}/>
                     <Route exact path = "/Page3" element = {<Page3/>}/>
+                    <Route exact path = "/logout" element = {<Page4/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

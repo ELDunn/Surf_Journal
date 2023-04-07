@@ -18,7 +18,7 @@ function Page1(props) {
   let days = 0;
   let high = 0;
   return (
-    <div className='infoServe'>
+    <div className='infoServe' id="stats">
         <h1>Statistics</h1>
         <ul id='statList'>
           <li>{ditta.forEach(ele => help += ele.numWaves)}
@@ -26,9 +26,9 @@ function Page1(props) {
           <li>{ditta.forEach(ele => {
             if (typeof ele.swellHeight.sg == 'number' && ele.swellHeight.sg !== Infinity){
               high += ele.swellHeight.sg}})} Average Wave Height (m): {Math.round(high/15 * 10)/10}</li>
-          <li>{ditta.forEach(ele => days += 1)} Days surfed: {days}</li>
-          <li>Waves per session: {Math.round(help/days * 10) / 10}</li>
-          <li>Women talked to : 0</li>
+          <li>{ditta.forEach(ele => days += 1)} Days Surfed:1</li>
+          <li>Waves Per Session: {Math.round(help/days * 10) / 10}</li>
+          <li>Women Talked To : 0</li>
         </ul>
     </div>
   )
